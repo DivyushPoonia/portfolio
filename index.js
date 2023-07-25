@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 
-app.listen('3000',()=>{
+app.listen('80',()=>{
     console.log('listening to port 3000');
 })
 
